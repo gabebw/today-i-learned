@@ -9,7 +9,7 @@ That will only complete with files in that directory.
 Here's a complete example that will complete the first argument of a command
 using files from the given directory, and otherwise do nothing:
 
-```sh
+```zsh
 # The details in til() aren't important, but it must be a function, not an
 # alias, or else `compdef` won't do anything with it.
 til(){
